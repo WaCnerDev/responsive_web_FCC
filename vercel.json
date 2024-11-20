@@ -2,28 +2,23 @@
   "rewrites": [
     {
       "source": "/personal_portafolio",
-      "destination": "/personal_portafolio/index.html",
-      "permanent": true
+      "destination": "/personal_portafolio/index.html"
     },
     {
       "source": "/survey_form",
-      "destination": "/survey_form/index.html",
-      "permanent": true
+      "destination": "/survey_form/index.html"
     },
     {
       "source": "/technical_documentation",
-      "destination": "/technical_documentation/$1",
-      "permanent": true
+      "destination": "/technical_documentation/$1"
     },
     {
       "source": "/trombones_stores",
-      "destination": "/trombones_stores/$1",
-      "permanent": true
+      "destination": "/trombones_stores/$1"
     },
     {
       "source": "/tribute_pages",
-      "destination": "/tribute_pages/$1",
-      "permanent": true
+      "destination": "/tribute_pages/$1"
     }
   ]
 }

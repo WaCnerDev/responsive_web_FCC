@@ -22,9 +22,6 @@
       "use": "@vercel/static"
     }
   ],
-  "static": {
-    "directories": ["personal_portafolio", "survey_form", "tribute_pages", "trombones_store", "tecnical_documentation"]
-  },
   "routes": [
     {
       "src": "/portfolio",

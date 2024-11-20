@@ -1,23 +1,23 @@
 {
   "rewrites": [
     {
-      "source": "/personal_portafolio",
+      "source": "/personal_portafolio/(.*)",
       "destination": "/personal_portafolio/index.html"
     },
     {
-      "source": "/survey_form",
+      "source": "/survey_form/(.*)",
       "destination": "/survey_form/index.html"
     },
     {
-      "source": "/technical_documentation",
+      "source": "/technical_documentation/(.*)",
       "destination": "/technical_documentation/$1"
     },
     {
-      "source": "/trombones_stores",
+      "source": "/trombones_stores/(.*)",
       "destination": "/trombones_stores/$1"
     },
     {
-      "source": "/tribute_pages",
+      "source": "/tribute_pages/(.*)",
       "destination": "/tribute_pages/$1"
     }
   ]

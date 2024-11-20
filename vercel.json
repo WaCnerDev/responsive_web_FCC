@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "personal_portfolio/index.html",
+      "src": "personal_portafolio/index.html",
       "use": "@vercel/static"
     },
     {
@@ -10,7 +10,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "tecincal_documentation/index.html",
+      "src": "tecnical_documentation/index.html",
       "use": "@vercel/static"
     },
     {

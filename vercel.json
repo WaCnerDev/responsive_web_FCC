@@ -1,24 +1,47 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/personal_portafolio/(.*)",
-      "destination": "/personal_portafolio/index.html"
+      "src": "personal_portfolio/index.html",
+      "use": "@vercel/static"
     },
     {
-      "source": "/survey_form/(.*)",
-      "destination": "/survey_form/index.html"
+      "src": "survey_form/index.html",
+      "use": "@vercel/static"
     },
     {
-      "source": "/technical_documentation/(.*)",
-      "destination": "/technical_documentation/$1"
+      "src": "tecincal_documentation/index.html",
+      "use": "@vercel/static"
     },
     {
-      "source": "/trombones_stores/(.*)",
-      "destination": "/trombones_stores/$1"
+      "src": "tribute_pages/index.html",
+      "use": "@vercel/static"
     },
     {
-      "source": "/tribute_pages/(.*)",
-      "destination": "/tribute_pages/$1"
+      "src": "trombones_store/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/portfolio",
+      "dest": "/personal_portfolio/index.html"
+    },
+    {
+      "src": "/survey",
+      "dest": "/survey_form/index.html"
+    },
+    {
+      "src": "/documentation",
+      "dest": "/tecincal_documentation/index.html"
+    },
+    {
+      "src": "/tribute",
+      "dest": "/tribute_pages/index.html"
+    },
+    {
+      "src": "/store",
+      "dest": "/trombones_store/index.html"
     }
   ]
 }

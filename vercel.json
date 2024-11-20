@@ -25,7 +25,7 @@
   "routes": [
     {
       "src": "/portfolio",
-      "dest": "/personal_portfolio/index.html"
+      "dest": "/personal_portafolio/index.html"
     },
     {
       "src": "/survey",
@@ -33,7 +33,7 @@
     },
     {
       "src": "/documentation",
-      "dest": "/tecincal_documentation/index.html"
+      "dest": "/tecnical_documentation/index.html"
     },
     {
       "src": "/tribute",

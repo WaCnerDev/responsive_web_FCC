@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/personal_portafolio", "destination": "/personal_portafolio/index.html","permanent": true },
+    { "source": "/survey_form", "destination": "/survey_form/index.html","permanent": true },
+    { "source": "/technical_documentation", "destination": "/technical_documentation/index.html","permanent": true },
+    { "source": "/trombones_stores", "destination": "/trombones_stores/index.html","permanent": true },
+    { "source": "/tribute_pages", "destination": "/tribute_pages/index.html","permanent": true }
+  ]
+}

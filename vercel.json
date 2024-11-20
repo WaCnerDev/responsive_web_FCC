@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/personal_portafolio",
-      "destination": "/personal_portafolio/$1",
+      "destination": "/personal_portafolio/index.html",
       "permanent": true
     },
     {
